@@ -1,14 +1,9 @@
-- name: Hello World!
-  hosts: all
- 
-  tasks:
- 
-  - name: Hello World!
-    shell: echo "Hi! Tower is working."
-- name demo playbook
+- name Hello Ping!
   hosts: all
   become: yes
   tasks:
+    - name: Hello World!
+      shell: echo "Hi! Tower is working."
     - name Ping only
       ansible.builtin.ping:
     - name debug task
