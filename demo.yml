@@ -3,7 +3,7 @@
   become: yes
   tasks:
     - name Ping only
-      ping:
+      ansible.builtin.ping:
     - name debug task
       debug:
         msg: "{{ ansible_facts}}"
