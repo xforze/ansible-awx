@@ -9,4 +9,4 @@
       ping:
     - name: debug
       debug:
-        msg: {{ ansible_facts }}
+        msg: "{{ ansible_facts }}"
