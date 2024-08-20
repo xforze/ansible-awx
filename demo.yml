@@ -7,3 +7,6 @@
       shell: echo "Hi! Tower is working."
     - name: Ping the servers
       ping:
+    - name: debug
+      debug:
+        msg: {{ ansible_facts }}
