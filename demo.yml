@@ -5,8 +5,3 @@
   tasks:
     - name: Hello World!
       shell: echo "Hi! Tower is working."
-    - name Ping only
-      ansible.builtin.ping:
-    - name debug task
-      debug:
-        msg: "{{ ansible_facts}}"
